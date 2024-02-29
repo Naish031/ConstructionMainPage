@@ -20,7 +20,7 @@ export default function Heroo() {
                 checkout({
                   lineItems: [
                     {
-                      price: "price_1Op4TCHrkKkcZaV4exGqHG2A",
+                      price: "price_1OpDawHrkKkcZaV4rhP78cxF",
                       quantity: 1,
                     },
                   ],
