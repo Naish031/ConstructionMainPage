@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center w-full overflow-hidden py-[1.5%] px-[2%]">
+    <nav className="flex justify-between items-center w-full overflow-hidden py-[1.5%] px-[2%] z-[100]">
       <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-1 rounded-md cursor-pointer">
         <Link href="/" className="flex items-center">
           <Image
