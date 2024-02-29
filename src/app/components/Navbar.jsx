@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { logo, close, menu } from "../../assets";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -9,15 +10,17 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center w-full overflow-hidden py-[1.5%] px-[2%]">
       <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-1 rounded-md cursor-pointer">
-        <Image
-          priority
-          src={logo}
-          alt="logo"
-          className="sm:w-[120px] sm:h-[80px] w-[50px] object-contain"
-        />
-        <h4 className="hidden sm:block text-dimWhite font-bold font-poppins text-[12px] sm:text-base text-center">
-          Sheikh Construction{" "}
-        </h4>
+        <Link href="/" className="flex items-center">
+          <Image
+            priority
+            src={logo}
+            alt="logo"
+            className="sm:w-[120px] sm:h-[80px] w-[50px] object-contain"
+          />
+          <h4 className="hidden sm:block text-dimWhite font-bold font-poppins text-[12px] sm:text-base text-center">
+            Sheikh Construction{" "}
+          </h4>
+        </Link>
       </div>
 
       <ul className="hidden sm:flex items-center gap-8">
