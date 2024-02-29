@@ -11,7 +11,7 @@ const GetStarted = () => (
       checkout({
         lineItems: [
           {
-            price: "price_1Op4XOHrkKkcZaV47J3J3ngK",
+            price: "price_1OpDawHrkKkcZaV4rhP78cxF",
             quantity: 1,
           },
         ],
