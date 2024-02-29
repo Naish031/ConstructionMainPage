@@ -38,7 +38,7 @@ const Navbar = () => {
           onClick={() => setToggle((prevToggle) => !prevToggle)}
         />
         {toggle && (
-          <div className="fixed top-14 right-0 w-1/3 h-[25vh] bg-opacity-90 bg-black-gradient sidebar flex flex-col items-center justify-center rounded-md">
+          <div className="fixed top-14 right-0 w-1/3 h-[25vh] bg-opacity-90 bg-black-gradient sidebar flex flex-col items-center justify-center rounded-md z-[60]">
             <ul className="flex flex-col items-center gap-5">
               <li className="text-lg font-poppins text-dimWhite cursor-pointer hover:text-white">
                 <a href="#home">Home</a>
