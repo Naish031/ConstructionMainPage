@@ -9,7 +9,7 @@ import { BackgroundBeams } from "@/app/components/ui/background-beams";
 export default function Heroo() {
   return (
     <section id="home" className="min-h-screen w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
-      <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-md mb-2">
+      <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-md mb-2 z-[50]">
         <p className={`${styles.paragraph} text-xs ml-2`}>
           <span className="text-dimWhite">$30/ week</span>{" "}
           <span className="text-dimWhite">
